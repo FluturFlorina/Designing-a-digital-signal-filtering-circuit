@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Proiect_filtre.gen/sources_1/ip/fifo64x64/fifo64x64_sim_netlist.vhdl" \
+"../../../../Proiect_filtre.srcs/sources_1/imports/new/SE.vhd" \
+"../../../../Proiect_filtre.srcs/sources_1/imports/new/SAT4_8.vhd" \
+"../../../../Proiect_filtre.srcs/sources_1/imports/new/SST4_8.vhd" \
+"../../../../Proiect_filtre.srcs/sources_1/imports/new/filtru1.vhd" \
+"../../../../Proiect_filtre.srcs/sources_1/imports/new/filtru2.vhd" \
+"../../../../Proiect_filtre.srcs/sources_1/imports/new/filtru3.vhd" \
+"../../../../Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd" \
+
+# Do not sort compile order
+nosort

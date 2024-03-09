@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" -L "xpm" --snapshot "f3_simu_behav" "xil_defaultlib.f3_simu" -log "elaborate.log" 

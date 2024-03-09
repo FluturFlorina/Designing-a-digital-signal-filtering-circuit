@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" -L "xpm" --snapshot "sat_simu_behav" "xil_defaultlib.sat_simu" -log "elaborate.log" 

@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/SST4_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SST4_8'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/filtru1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'filtru1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/filtru2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'filtru2'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/filtru3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'filtru3'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'testbench_stimulus_file'

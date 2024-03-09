@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1704701154">
+  <File Type="PA-TCL" Name="nexys4.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="nexys4_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="nexys4_reports.tcl"/>
+  <File Type="RDS-RDS" Name="nexys4.vds"/>
+  <File Type="RDS-UTIL" Name="nexys4_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="nexys4_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="nexys4.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="nexys4_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="nexys4_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/SE.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CURSURI/Filtre/Filtre/Filtre.srcs/sources_1/new/SE.vhd"/>
+        <Attr Name="ImportTime" Val="1699810720"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SAT4_8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CURSURI/Filtre/Filtre/Filtre.srcs/sources_1/new/SAT4_8.vhd"/>
+        <Attr Name="ImportTime" Val="1701004930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SST4_8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CURSURI/Filtre/Filtre/Filtre.srcs/sources_1/new/SST4_8.vhd"/>
+        <Attr Name="ImportTime" Val="1701029744"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/SSD/displ7seg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CURSURI/Filtre/Filtre/Filtre.srcs/sources_1/imports/SSD/displ7seg.vhd"/>
+        <Attr Name="ImportTime" Val="1633175909"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/filtru1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CURSURI/Filtre/Filtre/Filtre.srcs/sources_1/new/filtru1.vhd"/>
+        <Attr Name="ImportTime" Val="1701032916"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/filtru2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CURSURI/Filtre/Filtre/Filtre.srcs/sources_1/new/filtru2.vhd"/>
+        <Attr Name="ImportTime" Val="1700952296"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/filtru3.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CURSURI/Filtre/Filtre/Filtre.srcs/sources_1/new/filtru3.vhd"/>
+        <Attr Name="ImportTime" Val="1701026845"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/Detrimis/mpg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CURSURI/Filtre/Filtre/Filtre.srcs/sources_1/imports/Detrimis/mpg.vhd"/>
+        <Attr Name="ImportTime" Val="1702133314"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/nexys4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CURSURI/Filtre/Filtre/Filtre.srcs/sources_1/new/nexys4.vhd"/>
+        <Attr Name="ImportTime" Val="1702140639"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="nexys4"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Nexys4DDR.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,617 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Jan  7 00:08:29 2024
+# Process ID: 185956
+# Current directory: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent182680 D:\Facultate\AN 3\SSC\PROIECT\Proiect_Final\Proiect_filtre\Proiect_filtre.xpr
+# Log file: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/vivado.log
+# Journal file: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre\vivado.jou
+# Running On: DESKTOP-UPGRJVK, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 16936 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+update_compile_order -fileset sources_1
+generate_target all [get_files {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/ip/fifo64x64/fifo64x64.xci}]
+WARNING: [Vivado 12-818] No files matched 'D:/Facultate/AN'
+WARNING: [Vivado 12-818] No files matched '3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/ip/fifo64x64/fifo64x64.xci'
+export_ip_user_files -of_objects [get_files {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/ip/fifo64x64/fifo64x64.xci}] -no_script -sync -force -quiet
+WARNING: [Vivado 12-818] No files matched 'D:/Facultate/AN'
+WARNING: [Vivado 12-818] No files matched '3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/ip/fifo64x64/fifo64x64.xci'
+export_simulation -of_objects [get_files {{D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/ip/fifo64x64/fifo64x64.xci}}] -directory {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.ip_user_files/sim_scripts} -ip_user_files_dir {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.ip_user_files} -ipstatic_source_dir {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.ip_user_files/ipstatic} -lib_map_path [list {modelsim=D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.cache/compile_simlib/modelsim} {questa=D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.cache/compile_simlib/questa} {riviera=D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.cache/compile_simlib/riviera} {activehdl=D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench_stimulus_file'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.1/data/xsim/xsim.ini' copied to run dir:'D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench_stimulus_file' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.sim/sim_1/behav/xsim/filtre.csv'
+INFO: [SIM-utils-43] Exported 'D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.sim/sim_1/behav/xsim/filtre.csv'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj testbench_stimulus_file_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot testbench_stimulus_file_behav xil_defaultlib.testbench_stimulus_file -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot testbench_stimulus_file_behav xil_defaultlib.testbench_stimulus_file -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_stimulus_file_behav -key {Behavioral:sim_1:Functional:testbench_stimulus_file} -tclbatch {testbench_stimulus_file.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source testbench_stimulus_file.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000ns
+Note: Values measured at time t = 12/11/2022 13:00 successfully read
+Time: 270 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/12/2022 13:00 successfully read
+Time: 290 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/13/2022 13:00 successfully read
+Time: 310 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/14/2022 13:00 successfully read
+Time: 330 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/15/2022 13:00 successfully read
+Time: 350 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/08/2022 13:00 successfully read
+Time: 370 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/09/2022 13:00 successfully read
+Time: 390 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/10/2022 13:00 successfully read
+Time: 410 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/11/2022 13:00 successfully read
+Time: 430 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/12/2022 13:00 successfully read
+Time: 450 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/13/2022 13:00 successfully read
+Time: 470 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/14/2022 13:00 successfully read
+Time: 490 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/15/2022 13:00 successfully read
+Time: 510 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/16/2022 13:00 successfully read
+Time: 530 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/17/2022 13:00 successfully read
+Time: 550 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/18/2022 13:00 successfully read
+Time: 570 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/19/2022 13:00 successfully read
+Time: 590 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/20/2022 13:00 successfully read
+Time: 610 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/21/2022 13:00 successfully read
+Time: 630 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+Note: Values measured at time t = 12/22/2022 13:00 successfully read
+Time: 650 ns  Iteration: 0  Process: /testbench_stimulus_file/line__223  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+ERROR: Index 64 out of bound 0 to 63
+Time: 1970 ns  Iteration: 0  Process: /testbench_stimulus_file/line__115
+  File: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd
+
+HDL Line: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd:122
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_stimulus_file_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1660.250 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jan  7 00:10:16 2024] Launched synth_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/runme.log
+[Sun Jan  7 00:10:16 2024] Launched impl_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/runme.log
+read_checkpoint_help
+invalid command name "read_checkpoint_help"
+read_checkpoint -healp
+ERROR: [Common 17-170] Unknown option '-healp', please type 'read_checkpoint -help' for usage info.
+read_checkpoint -help
+read_checkpoint
+
+Description: 
+Read a design checkpoint
+
+Syntax: 
+read_checkpoint  [-cell <arg>] [-incremental] [-directive <arg>]
+                 [-auto_incremental] [-fix_objects <args>]
+                 [-dcp_cell_list <args>] [-quiet] [-verbose] [<file>]
+
+Usage: 
+  Name                 Description
+  --------------------------------
+  [-cell]              Replace this cell with the checkpoint. The cell must 
+                       be a black box.
+  [-incremental]       Input design checkpoint file to be used for re-using 
+                       implementation.
+  [-directive]         Mode of behavior (directive) for this command. Please 
+                       refer to Arguments section of this help for values for
+                       this option.
+                       Default: RuntimeOptimized
+  [-auto_incremental]  Enters automatic mode for incremental compile. This is
+                       less aggressive than the standard incremental mode and
+                       will readily switch from incremental algorithms to the
+                       default algorithms if results might not be maintained.
+                       Should not be used with -reuse_objects.
+  [-fix_objects]       Fix only given list of cells, clock regions, SLRs or 
+                       Design
+  [-dcp_cell_list]     A list of cell/dcp pairs, e.g. {<cell1> <dcp1> <cell2>
+                       <dcp2>}. The option value should be in curly braces.
+  [-quiet]             Ignore command errors
+  [-verbose]           Suspend message limits during command execution
+  [<file>]             Design checkpoint file
+
+Categories: 
+FileIO
+
+Description:
+
+  Reads a design checkpoint file (DCP) that contains the netlist,
+  constraints, and may optionally have the placement and routing information
+  of an implemented design. You can save design checkpoints at any stage in
+  the design using the write_checkpoint command.
+
+  The read_checkpoint command simply reads the associated checkpoint file,
+  without opening a design or project in-memory. To create a project from the
+  imported checkpoint, use the open_checkpoint command instead of
+  read_checkpoint, or use the link_design command after read_checkpoint to
+  open the in-memory design from the checkpoint or checkpoint files currently
+  read.
+
+  Note: When multiple design checkpoints are open in the Vivado tool, you
+  must use the current_project command to switch between the open designs.
+  You can use current_design to check which checkpoint is the active design.
+
+  Important: The -incremental switch is not intended to merge two DCP files
+  into a single design. It applies the placement and routing of the
+  incremental checkpoint to the netlist objects in the current design.
+
+  After loading an incremental design checkpoint, you can use the
+  report_incremental_reuse command to determine the percentage of physical
+  data reused from the incremental checkpoint, in the current design. The
+  place_design and route_design commands will run incremental place and
+  route, preserving reused placement and routing information and
+  incorporating it into the design solution.
+
+  Reading a design checkpoint with -incremental, loads the physical data into
+  the current in-memory design. To clear out the incremental design data, you
+  must either reload the current design, using open_run to open the synthesis
+  run for instance, or read a new incremental checkpoint to overwrite the one
+  previously loaded.
+
+Arguments:
+
+  -cell <arg> - (Optional) Specifies a black box cell in the current design
+  to populate with the netlist data from the checkpoint file being read. This
+  option cannot be used with -incremental, or any of its related options.
+
+  -auto_incremental - (Optional) Enables incremental algorithms only when the
+  quality of the reference checkpoint is high. This allows a user to set this
+  option and let the tool decide whether to run default or incremental
+  algorithms.
+
+  -incremental - (Optional) Load a checkpoint file into an already open
+  design to enable the incremental implementation design flow, where <file>
+  specifies the path and filename of the incremental design checkpoint (DCP)
+  file. In the incremental implementation flow, the placement and routing
+  from the incremental DCP is applied to matching netlist objects in the
+  current design to reuse existing placement and routing. Refer to the Vivado
+  Design Suite User Guide: Implementation (UG904) for more information on
+  incremental implementation.
+
+  -directive [ RuntimeOptimized | TimingClosure | Quick ] - (Optional)
+  Specifies a directive, or mode of operation for the -incremental process.
+
+   *  RuntimeOptimized: The target WNS is the referenced from the incremental
+      DCP. By default, more reuse from the reference checkpoint is
+      encouraged.
+
+   *  TimingClosure: The target WNS is 0. This mode attempts to meet timing
+      at the expense of runtime. Paths not meeting timing will be ripped up
+      and the incremental algorithms will be applied to fix timing on the
+      paths.
+
+   *  Quick: Specifies a low effort, non-timing-driven incremental
+      implementation mode with the fastest runtime.
+
+  -fix_objects - (Optional) When -incremental is specified, mark the
+  placement location of specifed cells as fixed (IS_LOC_FIXED) to prevent
+  changes by the place_design command. This option will fix the placement of
+  the specified list of cells, clock regions, SLRs or the current_design.
+
+  -dcp_cell_list <arg> - (Optional) Lets you specify a list of cell/dcp
+  pairs. This lets you read in multiple DCP files for specified cells in a
+  single run of the read_checkpoint command. The format is specified as a
+  list of cell/DCP pairs enclosed in curly braces: {<cell1> <dcp1> <cell2>
+  <dcp2>}.
+
+  -quiet - (Optional) Execute the command quietly, returning no messages from
+  the command. The command also returns TCL_OK regardless of any errors
+  encountered during execution.
+
+  Note: Any errors encountered on the command-line, while launching the
+  command, will be returned. Only errors occurring inside the command will be
+  trapped.
+
+  -verbose - (Optional) Temporarily override any message limits and return
+  all messages from this command.
+
+  Note: Message limits can be defined with the set_msg_config command.
+
+  <file> - (Required) The path and filename of the checkpoint file to read.
+
+  Note: If the path is not specified as part of the file name, the tool will
+  search for the specified file in the current working directory and then in
+  the directory from which the tool was launched.
+
+Examples:
+
+  The following example imports the specified checkpoint file into the tool,
+  and then links the various design elements to create an in-memory design of
+  the specified name:
+
+    read_checkpoint C:/Data/checkpoint.dcp
+    link_design -name Test1
+    
+
+  This example reads a design checkpoint on top of the current design for
+  incremental place and route of the design:
+
+    read_checkpoint -incremental C:/Data/routed.dcp
+    
+
+  This example reads a design checkpoint. Incremental algorithms will be used
+  only if the timing is nearly met and if there is a high reuse:
+
+    read_checkpoint -auto_incremental C:/Data/routed.dcp
+
+Related Information:
+
+   *  all_dsps
+   *  config_implementation
+   *  current_design
+   *  current_project
+   *  get_cells
+   *  link_design
+   *  open_checkpoint
+   *  report_config_implementation
+   *  write_checkpoint
+export_ip_user_files -of_objects  [get_files {{D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}}
+file delete -force {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jan  7 00:30:48 2024] Launched synth_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/runme.log
+[Sun Jan  7 00:30:48 2024] Launched impl_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-22:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1660.250 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A6EC01A
+open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3236.656 ; gain = 1576.406
+set_property PROGRAM.FILE {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/nexys4.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/nexys4.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1160] Copying file D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/nexys4.dcp to D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jan  7 00:55:35 2024] Launched synth_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/runme.log
+[Sun Jan  7 00:55:35 2024] Launched impl_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files {{D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}}
+file delete -force {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jan  7 00:56:02 2024] Launched synth_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/runme.log
+[Sun Jan  7 00:56:02 2024] Launched impl_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jan  7 00:56:52 2024] Launched synth_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/runme.log
+[Sun Jan  7 00:56:52 2024] Launched impl_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-22:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 3298.691 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A6EC01A
+set_property PROGRAM.FILE {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/nexys4.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1160] Copying file D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/nexys4.dcp to D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jan  7 01:02:18 2024] Launched synth_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/runme.log
+[Sun Jan  7 01:02:18 2024] Launched impl_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files {{D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}}
+file delete -force {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jan  7 01:02:46 2024] Launched synth_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/runme.log
+[Sun Jan  7 01:02:46 2024] Launched impl_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/runme.log
+open_hw_manager
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1160] Copying file D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/nexys4.dcp to D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jan  7 01:09:39 2024] Launched synth_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/runme.log
+[Sun Jan  7 01:09:39 2024] Launched impl_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files {{D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}}
+file delete -force {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jan  7 01:11:27 2024] Launched synth_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/runme.log
+[Sun Jan  7 01:11:27 2024] Launched impl_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-22:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 3306.078 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A6EC01A
+set_property PROGRAM.FILE {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/nexys4.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/nexys4.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1160] Copying file D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/nexys4.dcp to D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jan  7 01:16:52 2024] Launched synth_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/runme.log
+[Sun Jan  7 01:16:52 2024] Launched impl_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files {{D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}}] -no_script -reset -force -quiet
+remove_files  -fileset utils_1 {{D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}}
+file delete -force {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/utils_1/imports/synth_1/nexys4.dcp}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jan  7 01:17:18 2024] Launched synth_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/synth_1/runme.log
+[Sun Jan  7 01:17:18 2024] Launched impl_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-22:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 3306.078 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A6EC01A
+set_property PROGRAM.FILE {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/nexys4.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/nexys4.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Jan  7 01:22:04 2024] Launched impl_1...
+Run output will be captured here: D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-22:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 3306.418 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A6EC01A
+set_property PROGRAM.FILE {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/nexys4.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.runs/impl_1/nexys4.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jan  7 01:29:59 2024...

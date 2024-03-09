@@ -1,0 +1,19 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.gen/sources_1/ip/fifo64x64/fifo64x64_sim_netlist.vhdl,1702198685,vhdl,,,,\fifo64x64_xpm_counter_updn__parameterized0\;\fifo64x64_xpm_counter_updn__parameterized0_0\;\fifo64x64_xpm_counter_updn__parameterized1\;\fifo64x64_xpm_counter_updn__parameterized1_1\;fifo64x64;fifo64x64_axis_data_fifo_v2_0_8_top;fifo64x64_xpm_cdc_sync_rst;fifo64x64_xpm_counter_updn;fifo64x64_xpm_fifo_axis;fifo64x64_xpm_fifo_base;fifo64x64_xpm_fifo_reg_bit;fifo64x64_xpm_fifo_rst;fifo64x64_xpm_memory_base,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/new/f1_simu.vhd,1704666918,vhdl,,,,f1_simu,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/new/f2_simu.vhd,1704667519,vhdl,,,,f2_simu,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/new/f3_simu.vhd,1704670811,vhdl,,,,f3_simu,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/new/sat_simu.vhd,1704672666,vhdl,,,,sat_simu,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/new/sst_simu.vhd,1704671080,vhdl,,,,sst_simu,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd,1704664039,vhdl,,,,testbench_stimulus_file,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/new/se_simu.vhd,1704664240,vhdl,,,,se_simu,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/SAT4_8.vhd,1701004930,vhdl,D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/SST4_8.vhd,,,sat4_8,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/SE.vhd,1704646941,vhdl,D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/SAT4_8.vhd;D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/SST4_8.vhd;D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/filtru3.vhd,,,se,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/SST4_8.vhd,1704680346,vhdl,D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/filtru2.vhd,,,sst4_8,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/filtru1.vhd,1704681119,vhdl,D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd,,,filtru1,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/filtru2.vhd,1700952296,vhdl,D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd,,,filtru2,,,,,,,,
+D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sources_1/imports/new/filtru3.vhd,1704681461,vhdl,D:/Facultate/AN 3/SSC/PROIECT/Proiect_Final/Proiect_filtre/Proiect_filtre.srcs/sim_1/imports/scs axi4-stream lab 1/testbench_stimulus_file.vhd,,,filtru3,,,,,,,,
